@@ -33,11 +33,7 @@ The second plot is a scatter plot mapping bigfoot sightings by year separated by
 
 <!-- these are written in a combo of html and liquid --> 
 
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/brianpp2/brianpp2.github.io/tree/main/assets/python/Workbookhw5.ipynb" text="The Notebook" %}
 </div>
 
