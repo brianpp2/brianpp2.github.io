@@ -1,0 +1,240 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-76a916d7575c5db7ff3572da830be601"
+  },
+  "datasets": {
+    "data-76a916d7575c5db7ff3572da830be601": [
+      {
+        "sightings": 91,
+        "state": "Alabama"
+      },
+      {
+        "sightings": 20,
+        "state": "Alaska"
+      },
+      {
+        "sightings": 84,
+        "state": "Arizona"
+      },
+      {
+        "sightings": 95,
+        "state": "Arkansas"
+      },
+      {
+        "sightings": 402,
+        "state": "California"
+      },
+      {
+        "sightings": 121,
+        "state": "Colorado"
+      },
+      {
+        "sightings": 15,
+        "state": "Connecticut"
+      },
+      {
+        "sightings": 5,
+        "state": "Delaware"
+      },
+      {
+        "sightings": 292,
+        "state": "Florida"
+      },
+      {
+        "sightings": 121,
+        "state": "Georgia"
+      },
+      {
+        "sightings": 81,
+        "state": "Idaho"
+      },
+      {
+        "sightings": 232,
+        "state": "Illinois"
+      },
+      {
+        "sightings": 75,
+        "state": "Indiana"
+      },
+      {
+        "sightings": 56,
+        "state": "Iowa"
+      },
+      {
+        "sightings": 42,
+        "state": "Kansas"
+      },
+      {
+        "sightings": 112,
+        "state": "Kentucky"
+      },
+      {
+        "sightings": 40,
+        "state": "Louisiana"
+      },
+      {
+        "sightings": 14,
+        "state": "Maine"
+      },
+      {
+        "sightings": 34,
+        "state": "Maryland"
+      },
+      {
+        "sightings": 27,
+        "state": "Massachusetts"
+      },
+      {
+        "sightings": 208,
+        "state": "Michigan"
+      },
+      {
+        "sightings": 69,
+        "state": "Minnesota"
+      },
+      {
+        "sightings": 21,
+        "state": "Mississippi"
+      },
+      {
+        "sightings": 141,
+        "state": "Missouri"
+      },
+      {
+        "sightings": 45,
+        "state": "Montana"
+      },
+      {
+        "sightings": 15,
+        "state": "Nebraska"
+      },
+      {
+        "sightings": 7,
+        "state": "Nevada"
+      },
+      {
+        "sightings": 13,
+        "state": "New Hampshire"
+      },
+      {
+        "sightings": 63,
+        "state": "New Jersey"
+      },
+      {
+        "sightings": 40,
+        "state": "New Mexico"
+      },
+      {
+        "sightings": 102,
+        "state": "New York"
+      },
+      {
+        "sightings": 79,
+        "state": "North Carolina"
+      },
+      {
+        "sightings": 4,
+        "state": "North Dakota"
+      },
+      {
+        "sightings": 276,
+        "state": "Ohio"
+      },
+      {
+        "sightings": 85,
+        "state": "Oklahoma"
+      },
+      {
+        "sightings": 241,
+        "state": "Oregon"
+      },
+      {
+        "sightings": 111,
+        "state": "Pennsylvania"
+      },
+      {
+        "sightings": 5,
+        "state": "Rhode Island"
+      },
+      {
+        "sightings": 38,
+        "state": "South Carolina"
+      },
+      {
+        "sightings": 11,
+        "state": "South Dakota"
+      },
+      {
+        "sightings": 91,
+        "state": "Tennessee"
+      },
+      {
+        "sightings": 215,
+        "state": "Texas"
+      },
+      {
+        "sightings": 57,
+        "state": "Utah"
+      },
+      {
+        "sightings": 9,
+        "state": "Vermont"
+      },
+      {
+        "sightings": 72,
+        "state": "Virginia"
+      },
+      {
+        "sightings": 563,
+        "state": "Washington"
+      },
+      {
+        "sightings": 100,
+        "state": "West Virginia"
+      },
+      {
+        "sightings": 80,
+        "state": "Wisconsin"
+      },
+      {
+        "sightings": 27,
+        "state": "Wyoming"
+      }
+    ]
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal"
+      },
+      {
+        "field": "sightings",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "sightings",
+      "type": "quantitative"
+    },
+    "y": {
+      "field": "state",
+      "sort": "-x",
+      "type": "nominal"
+    }
+  },
+  "height": 500,
+  "mark": {
+    "color": "forestgreen",
+    "type": "bar"
+  },
+  "title": "Bigfoot Sightings by State",
+  "width": 600
+}
